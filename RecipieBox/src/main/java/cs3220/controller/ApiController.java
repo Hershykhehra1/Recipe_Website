@@ -28,6 +28,7 @@ import cs3220.repository.UserRepository;
 @RestController
 @RequestMapping("/api")
 public class ApiController {
+	int x = 0;
 	private final RecepieRepository recepieRepository;
 	private final UserRepository userRepository;
 
